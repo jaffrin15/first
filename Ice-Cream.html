@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream World</title>
+</head>
+<body>
+    <!--Header Tags-->
+    <h1 style = "color:rgb(0, 204, 255)">Welcome to Ice-cream World</h1>
+    <h2 style = "color:darkorange">Delicious and tasty</h2>
+
+    <!--Image-->
+    <image src="./image copy 2.png" height = "300px"; width = "300px"; alt="ice-cream"></image>
+    <!--Lists-->
+    <h3 style = "color:brown"> Ice-Cream Flavours</h3>
+    <ul>
+        <li>chocolate</li>
+        <li>Mango</li>
+        <li>strawbery</li>
+        <li>vanilla</li>
+    </ul>
+    <h3 style = "color:darkmagenta">Ingredients</h3>
+    <ol>
+        <li>Milk</li>
+        <li>Sugar</li>
+        <li>Flavours</li>
+        <li>Ice</li>
+    </ol>
+    <!--Tables-->
+    <caption>Ice-cream costs</caption>
+    <br><br>
+    <table border = "2">
+        <tr>
+            <th>Flavour</th>
+            <th>cost</th>
+        </tr>
+        <tr>
+            <td>chocolate</td>
+            <td>Rs.90</td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+            <td>Rs.80</td>
+        </tr>
+        <tr>
+            <td>Strawberry</td>
+            <td>Rs.100</td>
+        </tr>
+        <tr>
+            <td>Vanilla</td>
+            <td>Rs.60</td>
+        </tr>
+    </table>
+    <br> 
+    <!--Anchor Tags-->
+    <a href = "https://images6.fanpop.com/image/photos/33300000/ICE-CREAM-ice-cream-33393421-1366-768.jpg">Ice-Cream</a>
+    <br><br>
+    <a href= "https://youtu.be/3ff8ca3eqjM" target="_blank">Ice-Cream making video</=>
+    <br><br>
+    <!--iframes-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H-PxDQf-_Zg?si=0DjbkYY4TEnsVUZ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    <!-- Forms -->
+    <h3 style = "color:greenyellow">Order Your Ice-Cream</h3>
+    <form action="./submit.html" method:"POST">
+        <label for = "name">Name:</label>
+        <input type = "text" name = "name" placeholder = "Enter your Name" required>
+        <br><br>
+        <label for = "email">Email:</label>
+        <input type = "text" name = "email">
+        <br><br>
+        <label for = "ice-Cream size">Ice-cream size:</label>
+        <input type = "radio" name="size" value="small">Small
+        <input type = "radio" name = "size" value = "Medium">Medium
+        <input type = "radio" name = "size" value = "Large">Large
+        <br><br>
+        <label for = "flavours">Flavours:</label>
+        <select name = "flavour">
+            <option value = "chocolate">Chocolate</option>
+            <option value = "mango">Mango</option>
+            <option value = "strawberry">Strawberry</option>
+            <option value = "vanilla">Vanilla</option>
+            </select><br><br>
+            <label for = "numbers">Numbers:</label>
+            <input type = "number"  min="1" max="10">
+            <br><br>
+            <button type = "order Now">Order Now</button>
+            <br><br>
+            <button type = "reset">Reset</button>
+            <br><br>
+            <button type = "submit">Submit</button>
+            <br><br>
+
+    </form>
+</body>
+</html>
